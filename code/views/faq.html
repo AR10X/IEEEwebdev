@@ -8,9 +8,9 @@
     <!--materials icons CDN-->
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <!--CSS file-->
-    <link rel="stylesheet" href="/public/css/style.css">
+    <link rel="stylesheet" href="../public/css/faq.css">
     <!--javascript file-->
-    <script rel="text/javascript" src="/public/js/functionality.js"></script>
+    <script rel="text/javascript" src="../public/js/functionality.js"></script>
 </head>
 <body>
     <div class="wrapper">
@@ -18,7 +18,7 @@
         <div id="sidenav" class="sidenav">
             <a class="closebtn" onclick="closeNav()"><i class="material-icons md-48">close</i></a>
             <div class="sidemenu">
-                <a href="#" class="active"><i class="material-icons"></i>HOME</a>
+                <a href="index.html" class="active"><i class="material-icons"></i>HOME</a>
                 <a href="#"><i class="material-icons"></i>BOOK</a>
                 <a href="#"><i class="material-icons"></i>OFFERS</a>
                 <a href="#"><i class="material-icons"></i>FAQs</a>
@@ -31,19 +31,26 @@
             <!--topnavbar-->
             <div id="topnav" class="topnav">
                 <div class="ham-menu">
-                    <a onclick="openNav()"><i class="material-icons md-48">menu</i></a>
+                    <a class="ham" onclick="openNav()"><i class="material-icons md-48">menu</i></a>
                 </div>
                 <div class="comp-logo">
-                    <img src="/public/resources/images/logo.png">
+                    <img src="../public/resources/images/logo.png">
                 </div>
                 <div class="topnav-right">
                     <a href="#">BOOK</a>
                     <a href="#">OFFERS</a>
-                    <a href="#">FAQs</a>
+                    <a class="active" href="#">FAQs</a>
                     <a href="#">ABOUT US</a>
                     <a href="#">ASSISTANCE</a>
                 </div>
-
+            </div>
+            <div class="faq-card">
+                <h3>Frequently asked questions</h3>
+                <div class="question-card">
+                    <p>Question</p>
+                    <p>Ans</p>
+                </div>
+            </div>
         </div>
     </div>
 </body>
