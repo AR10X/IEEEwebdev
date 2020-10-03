@@ -157,82 +157,7 @@ body {
 /* ---------------------------------------------------
     BODY CONTENT
 ----------------------------------------------------- */
-/*defining columns for grid system*/
 
-.col-1 {width: 8.33%;}
-.col-2 {width: 16.66%;}
-.col-3 {width: 25%;}
-.col-4 {width: 33.33%;}
-.col-5 {width: 41.66%;
-background-color: black;}
-.col-6 {width: 50%;}
-.col-7 {width: 58.33%;
-background-color: black;}
-.col-8 {width: 66.66%;}
-.col-9 {width: 75%;}
-.col-10 {width: 83.33%;}
-.col-11 {width: 91.66%;}
-.col-12 {width: 100%;}
-
-[class*="col-"] {
-    padding: 15px;
-    border: none;
-  }
-
-  .form {
-    position: absolute;
-    width: 500px;
-    height: 476px;
-    left: 108px;
-    top: 161px;
-    background: #3C4042;
-    opacity: 0.7;
-    border-radius: 10px;
-
-  }
-
-  .form p{
-      padding-left: 34px;
-      padding-top: 85px;
-      font-size: 30px;
-  }
-
-.main-holder{
-    display: inline;
-    align-self: center;
-}
-
-
-.from-origin{
-    margin-left: 34px;
-    margin-top: 40px;
-    position: absolute;
-    width: 309px;
-    height: 40px; 
-    background: #606368;
-    opacity: 0.5;
-    color:#fff;
-    font-size: 20px;
-    
-       
-}
-
-.type{
-    float: right;
-    margin-top: 10%;
-    margin-right: 25%;
-    margin-left: 50%;
-    display: block;
-}
-
-.type p{
-  font-size: 50px;
-}
-
-
-  .select-selected {
-    background-color: DodgerBlue;
-  }
   
   /* Style the arrow inside the select element: */
   .select-selected:after {
@@ -289,53 +214,61 @@ background-color: black;}
 
   .material-icons.md-light { color:rgb(164,166,169,0.7); }
 
-
-.form {
+  .to-form {
     position: absolute;
     width: 90%;
     height: 476px;
-    left: 108px;
-    top: 161px;
+    left: 5%;
+    top: 20%;
+    padding:8% 10% ;
     background: #3C4042;
     opacity: 0.7;
     border-radius: 10px;
-
   }
 
-#1{
-      padding-left: 100px;float: left;
-      padding-top: 60px;
-      font-size: 90px;color: green;
-}
-.T{padding-left: 100px;float: left;
-    padding-top: 200px;
-    font-size: 30px;
-
-}
-.from-origin{
-    margin-left: 34px;
-    margin-top: 88px;
-    position: absolute;
-    width: 309px;
-    height: 40px; 
-    background: #606368;
-    opacity: 0.5;
-    color:#fff;
-    font-size: 20px;
-    
-}
 .to-origin{
-    margin-left: 34px;
-    margin-top: 160px;
-    position: absolute;
-    width: 309px;
-    height: 40px; 
-    background: #606368;
-    opacity: 0.5;
-    color:#fff;
-    font-size: 20px;
-    
+  width: 369px;
+  height: 53px;
+  background: #606368;
+  opacity: 0.5;
+  border-radius: 5px;
+  color: white;
+  font-size: 20px;
+  margin-top: 5%;
 }
-.question-card{
-  padding:10px 5px 10px 10px;
+
+.from-origin{
+  width: 369px;
+  height: 53px;
+  background: #606368;
+  opacity: 0.5;
+  border-radius: 5px;
+  color: white;
+  font-size: 20px;
+}
+
+#texts{
+  float: left;
+  margin-right: 5%;
+}
+
+.to{
+  margin-top: 6%;
+  margin-right: 6%!important;
+}
+
+#date{
+  width: 369px;
+  height: 53px;
+  background: #606368;
+  opacity: 0.5;
+  border-radius: 5px;
+  color: white;
+  font-size: 20px;
+  margin-top: 5%;
+}
+
+.tod{
+  margin-top: 6%;
+  margin-right: 5%!important;
 }
