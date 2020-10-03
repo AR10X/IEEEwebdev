@@ -179,23 +179,6 @@ background-color: black;}
     border: none;
   }
 
-  .form {
-    position: absolute;
-    width: 500px;
-    height: 476px;
-    left: 108px;
-    top: 161px;
-    background: #3C4042;
-    opacity: 0.7;
-    border-radius: 10px;
-
-  }
-
-  .form p{
-      padding-left: 34px;
-      padding-top: 85px;
-      font-size: 30px;
-  }
 
 .main-holder{
     display: inline;
@@ -217,17 +200,7 @@ background-color: black;}
        
 }
 
-.type{
-    float: right;
-    margin-top: 10%;
-    margin-right: 25%;
-    margin-left: 50%;
-    display: block;
-}
 
-.type p{
-  font-size: 50px;
-}
 
 
   .select-selected {
@@ -289,15 +262,83 @@ background-color: black;}
 
   .material-icons.md-light { color:rgb(164,166,169,0.7); }
 
+.from-left{
+  width: 50%;
+  display: block;
+  float: left;
+  padding: 10%;
+}
 
-.faq-card{
+.planet-image{
+  width: 50%;
+  display: block;
+  float:right;
+  padding: 10%;
+}
+
+.from-form{
   background: #3C4042;
   opacity: 0.7;
   border-radius: 10px;
-  margin: 100px 100px 100px 100px;
-  padding: 25px 25px 25px 25px;
+  color: white;
+  position: absolute;
+  width: 32%;
+  height: 50%;
+  left: 10%;
+  top: 20%; 
+  padding-top: 30px;
+  padding-left: 80px;
 }
 
-.question-card{
-  padding:10px 5px 10px 10px;
+.from-form p{
+  font-family: Arial;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 34px;
+  color: #FFFFFF;
+}
+
+.from-value{
+  margin-top:5px;
+  position: absolute;
+  width: 60%;
+  height: 40px;
+  background: #606368;
+  opacity: 0.5;
+  font-family: Arial;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 28px;
+  color: #FFFFFF;
+}
+
+.mars-settlement{
+  margin-top: 80px;
+  position: absolute;
+  width: 60%;
+  height: 40px;
+  background: #606368;
+  opacity: 0.5;
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color: #FFFFFF;
+  opacity: 0.5;
+}
+
+.terms{
+  position: absolute;
+  margin-top:35%;
+  margin-right: 50%;
+  margin-left: 5%;
+  font-family: Arial;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 28px;
+color: #FFFFFF;
 }

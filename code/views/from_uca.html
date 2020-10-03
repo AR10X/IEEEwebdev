@@ -8,7 +8,7 @@
     <!--materials icons CDN-->
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <!--CSS file-->
-    <link rel="stylesheet" href="../public/css/index.css">
+    <link rel="stylesheet" href="../public/css/from.css">
     <!--javascript file-->
     <script rel="text/javascript" src="../public/js/functionality.js"></script>
 </head>
@@ -18,8 +18,8 @@
         <div id="sidenav" class="sidenav">
             <a class="closebtn" onclick="closeNav()"><i class="material-icons md-48">close</i></a>
             <div class="sidemenu">
-                <a href="#" class="active"><i class="material-icons"></i>HOME</a>
-                <a href="from.html"><i class="material-icons"></i>BOOK</a>
+                <a href="index.html"><i class="material-icons"></i>HOME</a>
+                <a class="active" href="#"><i class="material-icons"></i>BOOK</a>
                 <a href="#"><i class="material-icons"></i>OFFERS</a>
                 <a href="faq.html"><i class="material-icons"></i>FAQs</a>
                 <a href="#"><i class="material-icons"></i>ABOUT US</a>
@@ -37,34 +37,28 @@
                     <img src="../public/resources/images/logo.png">
                 </div>
                 <div class="topnav-right">
-                    <a href="from.html">BOOK</a>
+                    <a class="active" href="#">BOOK</a>
                     <a href="#">OFFERS</a>
                     <a href="faq.html">FAQs</a>
                     <a href="#">ABOUT US</a>
                     <a href="#">ASSISTANCE</a>
                 </div>
             </div>
-            <div class="main-holder">
-                <div class="form">
-                    <p>Book your spacecraft ticket</p>
-                    <form>
-                        <select class="from-origin">
-                            <option value="" disabled selected>FROM</option>
-                            <option value="Mars">Mars</option>
-                            <option value="Earth">Earth</option>
-                            <option value="Moon">Moon</option>
-                            <option value="UCA">United Colonies Assembly</option>
+            <div class="content-container">
+                <div class="form-left">
+                    <div class="from-form">
+                        <p>FROM</p>
+                        <select class="from-value">
+                            <option value="">United Colonies Assembly</option>
                         </select>
-                    </form>
-                    <div class="submit-button">
-                        <a href="#"><i class="material-icons md-72 md-light">navigate_next</i></a>
+                        <br>
+                        <select class="mars-settlement">
+                            <option value="" disabled selected>Select a settlement</option>
+                        </select>
                     </div>
                 </div>
-                <div class="type">
-                    <p>SOME TEXT<span
-                        class="txt-rotate"
-                        data-period="2000"
-                        data-rotate='[ "TYPING TEXT EFFECT", "ADD THE TEXTS IN THE JS ARRAY IN HTML", "SOME RANDOM TEXT AGAIN"]'></span></p>
+                <div class="planet-image">
+                    <img src="../public/resources/images/uca.png" width="100%" height="auto" >
                 </div>
             </div>
         </div>
