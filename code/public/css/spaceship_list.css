@@ -352,3 +352,8 @@ border-radius: 10px;
   padding-top: 50px;
   padding-bottom: 50px;
 }
+
+#to-link{
+  text-decoration: none;
+  color: white!important; 
+}

@@ -204,3 +204,11 @@ margin-bottom: 30px;
 h3{
   margin-left: 20%;
 }
+
+.submit-button{
+  bottom: 20%;
+  right: 30% ;
+  position: absolute;
+}
+
+.material-icons.md-72 { font-size: 72px; }

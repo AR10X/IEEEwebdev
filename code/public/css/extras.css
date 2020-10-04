@@ -190,3 +190,11 @@ ul{
   position:absolute;
   margin-top:50px;
 }
+
+.submit-button{
+  bottom: 20%;
+  right: 20% ;
+  position: absolute;
+}
+
+.material-icons.md-72 { font-size: 72px; }
