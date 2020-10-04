@@ -164,6 +164,11 @@ body {
   padding-top: 5%;
   color: white;
 }
+.extras-container p:nth-of-type(2){
+  width: 60%;
+  margin-top: 3%;
+
+}
 
 .food-frame{
   display: block;
@@ -173,9 +178,20 @@ body {
 opacity: 0.7;
 border-radius: 10px;
 }
+.from-origin{
+  width: 309px;
+  height: 40px; 
+  background: #606368;
+  opacity: 0.5;
+  color:#fff;
+  font-size: 20px;
+}
+  
+
 
 ul{
   list-style: none;
+  margin-top: 3%;
   
 }
 
@@ -197,4 +213,4 @@ ul{
   position: absolute;
 }
 
-.material-icons.md-72 { font-size: 72px; }
+.material-icons.md-72 { font-size: 72px;color:#A4A6A9; }
