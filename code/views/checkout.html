@@ -8,11 +8,11 @@
     <!--materials icons CDN-->
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <!--CSS file-->
-    <link rel="stylesheet" href="../public/css/seat.css">
+    <link rel="stylesheet" href="../public/css/checkout.css">
     <!--javascript file-->
     <script rel="text/javascript" src="../public/js/functionality.js"></script>
 </head>
-<body>
+<body onload="setVal()">
     <div class="wrapper">
         <!--Sidebar container-->
         <div id="sidenav" class="sidenav">
@@ -45,7 +45,28 @@
                 </div>
             </div>
             <div class="seat-container">
-                
+                <div class="board">
+                    <ul class="left">
+                        <li><span id="setplanet"> Moon</span><span id="setfrom">Settlement 1</span></li>
+                        <lI>Date: 29/5/2099</lI>
+                        <li>Bronze Class</li>
+                    </ul>
+                    <ul class="right">
+                        <li>Mars Settlement 2</li>
+                        <li>Time: 14:00 hrs</li>
+                        <li>2</li>
+                    </ul>
+                </div>
+                <div class="bottom">
+                    <p>Extras</p>
+                    <div class="extras-box">
+                        <br>
+                        <br>
+                        <br>
+                    </div>
+                    <p>Total:</p>
+                    <p>Enter Your Universal Z-pin to check out:<span></span></p>
+                </div>
             </div>
         </div>
     </div>

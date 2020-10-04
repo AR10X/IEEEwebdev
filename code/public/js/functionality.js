@@ -87,6 +87,10 @@ var fromPlaceValue;
 var settlementValue;
 var toPlaceValue;
 var val;
+var settlementValue1;
+
+
+document.getElementById("date-body").addEventListener("load", settoVal1, true);
 
 function fromLinker(){
    var x = document.getElementById("from-first-form").selectedIndex;
@@ -95,19 +99,42 @@ function fromLinker(){
   localStorage.setItem("fromPlaceValue",fromPlaceValue);
 };
 
-function fromSettlement1(){
-  var y = document.getElementById("settlement-selection1").selectedIndex;
-  settlementValue = document.getElementsByTagName("option")[y].value;
-  localStorage.setItem("settlementValue",settlementValue);
-  document.getElementById("from-settlement-name").value = settlementValue;
-  
+function fromSettlement(){
+  var x=document.getElementById("settlement-selection");
+  var y = x.selectedIndex;
+  settlementValue = x[y].value;
+  localStorage.setItem('settle',settlementValue);
 };
-
-window.onload =()=>{val=localStorage.getItem("settlement Value")};
 
 function toLinker(){
   var z = document.getElementById("to-form-link").selectedIndex;
-  toPlaceValue = document.getElementsByTagName("option")[z].value;
-  alert(toPlaceValue);
+  toPlaceValue = document.getElementById("to-form-link").value;
   document.getElementById("to-btn").href = `destination_${toPlaceValue}.html`;
 };
+
+function setVal(){
+  document.getElementById("from-settlement-name").textContent = localStorage.settle;
+  }
+
+function settoVal1(){
+  document.getElementById("from-settlement-name2").textContent = localStorage.settle1;
+}
+
+function fromSettlement1(){
+  var x=document.getElementById("settlement-selection1");
+  var y = x.selectedIndex;
+  settlementValue1 = x[y].value;
+  localStorage.setItem('settle1',settlementValue1);
+};
+
+document.getElementById("date-body").addEventListener("load", function setVal(){
+  document.getElementById("from-settlement-name").textContent = localStorage.settle;
+});
+
+  /* ---------------------------------------------------
+    CHECKOUT PAGE
+----------------------------------------------------- */
+
+function showSettlementfrom(){
+  document.getElementById("from-settlement-name").textContent = localStorage.settle;
+  }

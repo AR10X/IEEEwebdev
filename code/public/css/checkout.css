@@ -161,46 +161,32 @@ ul{
   list-style: none;
 }
 
-.pass{
+.left{
   float: left;
-  margin-right: 100px;
+  margin-left: 4%;
+}
+
+.extras-box{
+  background: #3C4042;
+opacity: 0.7;
+border-radius: 10px;
+margin-right: 70%;
+margin-left: 5%;
+}
+
+li{
+  margin-bottom: 20px;
+  margin-right: 40px;
 }
 
 .seat-container{
-  margin-top: 8%;
-  padding-left:10%;
+  margin-top:10%;
 }
 
-.ullist{
-  margin-top: 5%;
+.bottom p{
+  margin-left:5%;
 }
 
-.pass input{
-  background: #3C4042;
-  border: none;
-width: 200px;
-height: 50px;
-color: white;
-font-size: 18px;
-font-weight: bold;
-margin-bottom: 30px;
-cursor: pointer;
-}
-
-.info input{
-  background:none;
-  border: none;
-width: 250px;
-height: 50px;
-color: white;
-font-size: 18px;
-margin-bottom: 30px;
-}
-
-.info{
-  padding-top: 11px;
-}
-
-h3{
-  margin-left: 20%;
+.bottom{
+  margin-top: 10%;
 }

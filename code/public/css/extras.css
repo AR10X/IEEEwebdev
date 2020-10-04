@@ -159,15 +159,11 @@ body {
 ----------------------------------------------------- */
 
 .extras-container{
-  width: 75%; 
+  width: 100%;
   padding-left: 10%;
   padding-top: 5%;
   color: white;
 }
-.extras-container p{
-  text-align: justify;
-}
-
 
 .food-frame{
   display: block;
@@ -177,19 +173,8 @@ body {
 opacity: 0.7;
 border-radius: 10px;
 }
-.from-origin{
-  width: 309px;
-  height: 40px; 
-  background: #606368;
-  opacity: 0.5;
-  color:#fff;
-  font-size: 20px;
-  
-     
-}
 
 ul{
-  margin-top: 5%;
   list-style: none;
   
 }
@@ -212,4 +197,4 @@ ul{
   position: absolute;
 }
 
-.material-icons.md-72 { font-size: 72px; color: #A4A6A9}
+.material-icons.md-72 { font-size: 72px; }
