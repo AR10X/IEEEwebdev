@@ -80,42 +80,34 @@ $(document).ready(function() {
   });
 
    /* ---------------------------------------------------
-    FROM REDIRECT
+    PAGE LINKING AND REDIRECTING
 ----------------------------------------------------- */
 
-const fromPlanet = {
-  Mars: "from_mars.html",
-  Earth: "from_earth.html",
-  Moon: "from_moon.html",
-  UFA:"from_uns.html"
-};
+var fromPlaceValue;
+var settlementValue;
+var toPlaceValue;
+var val;
 
-var dataBase = {
-  fromPlace:""
-};
-
-function fromLinker(dataBase,fromPlanet){
+function fromLinker(){
    var x = document.getElementById("from-first-form").selectedIndex;
-   var fromPlaceValue = document.getElementsByTagName("option")[x].value;
-   alert(fromPlaceValue);
-   alert(dataBase.fromPlace);
-   dataBase.fromPlace = fromPlaceValue;
-   
-   for(const property in fromPlanet){
-     if(property == fromPlaceValue){
-       var Linkvalue = fromPlanet.property;
-     }
-   }
-   alert(Linkvalue);
-   document.getElementById("firstlink").href = Linkvalue;
+   fromPlaceValue = document.getElementsByTagName("option")[x].value;
+   document.getElementById("firstlink").href = `from_${fromPlaceValue}.html`;
+  localStorage.setItem("fromPlaceValue",fromPlaceValue);
 };
 
-
-
-
-function fromSettlement(){
-  var y = document.getElementById("settlement-selection").selectedIndex;
-  var settlementValue = document.getElementsByTagName("option")[y].value;
-  alert(settlementValue);
+function fromSettlement1(){
+  var y = document.getElementById("settlement-selection1").selectedIndex;
+  settlementValue = document.getElementsByTagName("option")[y].value;
+  localStorage.setItem("settlementValue",settlementValue);
   document.getElementById("from-settlement-name").value = settlementValue;
+  
+};
+
+window.onload =()=>{val=localStorage.getItem("settlement Value")};
+
+function toLinker(){
+  var z = document.getElementById("to-form-link").selectedIndex;
+  toPlaceValue = document.getElementsByTagName("option")[z].value;
+  alert(toPlaceValue);
+  document.getElementById("to-btn").href = `destination_${toPlaceValue}.html`;
 };
