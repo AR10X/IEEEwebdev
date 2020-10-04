@@ -159,11 +159,15 @@ body {
 ----------------------------------------------------- */
 
 .extras-container{
-  width: 100%;
+  width: 75%; 
   padding-left: 10%;
   padding-top: 5%;
   color: white;
 }
+.extras-container p{
+  text-align: justify;
+}
+
 
 .food-frame{
   display: block;
@@ -173,8 +177,19 @@ body {
 opacity: 0.7;
 border-radius: 10px;
 }
+.from-origin{
+  width: 309px;
+  height: 40px; 
+  background: #606368;
+  opacity: 0.5;
+  color:#fff;
+  font-size: 20px;
+  
+     
+}
 
 ul{
+  margin-top: 5%;
   list-style: none;
   
 }
